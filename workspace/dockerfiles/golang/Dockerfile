@@ -1,4 +1,4 @@
-FROM golang:1.16
+FROM golang:1.23.2
 
 RUN go env -w GOPROXY=https://goproxy.io,https://goproxy.cn && \
     go env -w GO111MODULE="on"
